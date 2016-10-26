@@ -36,7 +36,7 @@
                     <li><a href="#">Blog</a></li>
                     <li><a href="#">Sign Up</a></li>
                 </menu>
-                <div id="search">
+                <div id="search" class="wow rubberBand">
                     <input type="text"  name="q" placeholder="Search">
                     <input type="submit" value="" onclick="fadeOut()">
                 </div>
@@ -48,7 +48,8 @@
                 </a>
             </div>
             <a href="#" id="bars" ><i class="fa fa-bars hidden-lg wow rubberBand" aria-hidden="true" onclick="rightIn()" data-wow-duration="1s"></i></a>
-            <div class="col-xs-10 hidden-lg" id="drop_menu">
+            <!-- Hidden menu-->
+            <div class="col-xs-10 hidden-lg wow slideInRight" id="drop_menu" >
                <a href="#" ><i class="fa fa-times" aria-hidden="true" onclick="rightOut()"></i></a>
                 <ul id="menu_vertical">
                     <li><a href="#">Home</a></li>
@@ -64,6 +65,7 @@
                 <div class="proceed_button">
                     <span>PROCEED TO</span> <i class="fa fa-shopping-cart" aria-hidden="true"></i>
                 </div>
+                <!-- End of hidden menu-->
             </div>
         </div>
         <!-- Main cont -->
