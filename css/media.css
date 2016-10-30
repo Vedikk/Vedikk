@@ -20,6 +20,12 @@
         display: block;
         margin-top: 15px;
     }
+    .top_nav>li:last-child{
+        margin-bottom: 10px;
+    }
+    .inner_block {
+        margin-top: 50px;
+    }
 }
 
 /* Small Devices, Tablets */
