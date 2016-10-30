@@ -1,3 +1,16 @@
+@keyframes gear {
+    from{float: left;}
+    to{float: right;
+        -webkit-transform: scale(-1, 1);
+        -moz-transform: scale(-1, 1);
+        -ms-transform: scale(-1, 1);
+        -o-transform: scale(-1, 1);
+        transform: scale(-1, 1);}
+}
+@keyframes right_relax {
+    from{float: right;}
+    to{float: left}
+}
 *{
     margin: 0;
     padding: 0;
@@ -62,7 +75,7 @@ h1{
 }
 .top_slider{
     background-size: cover;
-    background: url("../img/top_slide_bg.png") fixed center no-repeat;
+    background: url("../img/top_slide_bg.png") center no-repeat;
     height: 500px;
     text-align: center;
 }
@@ -127,7 +140,20 @@ h1{
     display: block;
     margin: auto;
 }
-
+.gear{
+    background: url("../img/gear.png");
+    height: 500px;
+}
+.relax{
+    transition: all 0.6s ease;
+}
+.right_relax{
+    background: url("../img/relax_bg.png") center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 500px;
+    transition: all 2s ease;
+}
 
 
 
