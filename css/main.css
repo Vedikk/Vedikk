@@ -1,23 +1,11 @@
-@keyframes gear {
-    from{float: left;}
-    to{float: right;
-        -webkit-transform: scale(-1, 1);
-        -moz-transform: scale(-1, 1);
-        -ms-transform: scale(-1, 1);
-        -o-transform: scale(-1, 1);
-        transform: scale(-1, 1);}
-}
-@keyframes right_relax {
-    from{float: right;}
-    to{float: left}
-}
 *{
     margin: 0;
     padding: 0;
-    color: #777777;
+
 }
 body{
     background: #fff;
+    color: #777777;
 }
 p{
     font-family: "Roboto Slab", serif;
@@ -27,6 +15,9 @@ h1{
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
     font-size: 4em !important;
+}
+.wrapper{
+    overflow: hidden;
 }
 .header{
     padding: 4%;
@@ -126,6 +117,7 @@ h1{
 }
 .services_blocks{
     text-align: center;
+    margin-bottom: 30px;
 }
 .services_blocks h3{
     margin-top: 30px;
@@ -140,19 +132,26 @@ h1{
     display: block;
     margin: auto;
 }
-.gear{
-    background: url("../img/gear.png");
-    height: 500px;
-}
-.relax{
-    transition: all 0.6s ease;
-}
-.right_relax{
-    background: url("../img/relax_bg.png") center no-repeat;
+.relax_block{
     -webkit-background-size: cover;
     background-size: cover;
-    height: 500px;
-    transition: all 2s ease;
+    background: url("../img/relax_bg.png") center no-repeat;
+    height: 600px;
+    padding: 95px 0 0 530px !important;
+}
+.relax_block strong{
+    color: #7cc576;
+}
+.relax_block h2{
+    color: #ffffff;
+    font-size: 2.7em;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+.relax_block p{
+    margin-top: 50px;
+    color: #cccccc;
 }
 
 
