@@ -7,6 +7,11 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
+    .header{
+        min-height: 60px;
+        margin: auto;
+        padding: 4% 1%;
+    }
     .top_nav{
         display: none;
         width: 100%;
@@ -15,6 +20,7 @@
         background-color: #e9e9e9;
         border-radius: 20px;
         z-index: 12;
+        margin: 10px 0;
     }
     .top_nav>li{
         display: block;
@@ -23,8 +29,12 @@
     .top_nav>li:last-child{
         margin-bottom: 10px;
     }
-    .inner_block {
+    .services_inner_block {
         margin-top: 50px;
+    }
+    .relax_block{
+        padding: 30% 1%;
+        text-align: center;
     }
 }
 
