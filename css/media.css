@@ -33,9 +33,10 @@
         margin-top: 50px;
     }
     .relax_block{
-        padding: 30% 1%;
-        text-align: center;
+        background: url("../img/relax_bg_small.png") no-repeat #777;
+        padding: 10% 5%;
     }
+
 }
 
 /* Small Devices, Tablets */
