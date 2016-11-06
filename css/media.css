@@ -36,16 +36,23 @@
         background: url("../img/relax_bg_small.png") no-repeat #777;
         padding: 10% 5%;
     }
+    .proj_block_left{
+        padding-left: 27vw;
+    }
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
-
+    .proj_block_left{
+        padding-left: 10vw;
+    }
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width: 480px) {
-
+    .proj_block_left{
+        padding-left: 5vw;
+    }
 }
 
 /* Custom, iPhone Retina */
@@ -72,6 +79,7 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width: 992px) {
+
     .top_nav{
         display: inline-block !important;
     }

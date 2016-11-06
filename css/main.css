@@ -25,6 +25,12 @@ h2{
     text-transform: uppercase;
     font-size: 2.5em ;
 }
+h6{
+    font-family: 'Montserrat', sans-serif;
+    color: #222222;
+    font-size: 1.5em;
+    display: inline-block;
+}
 .wrapper{
     overflow: hidden;
 }
@@ -169,22 +175,51 @@ h2{
     text-align: center;
     color: #222;
 }
-.projects p{
+.projects> p{
     text-align: center;
     margin-bottom: 80px;
     font-size: 1.2em;
 }
 .proj_block_right{
     margin-top: 70px;
-    background: url("../img/ipad.png");
+    -webkit-background-size: cover;
+    background-size: cover;
+    background: url("../img/ipad.png") no-repeat ;
     height: 600px;
 }
 .proj_block_left{
+    text-align: left;
     padding: 90px 0 0 95px;
 }
 .proj_block_left h3{
+    vertical-align: text-top;
+    text-transform: uppercase;
     color: #222;
     font-size: 1.3em;
+    margin-bottom: 25px;
+}
+.proj_block_left img{
+    margin: 10px 20px 10px 0;
+    display: inline-block;
+}
+.proj_block_left img:first-of-type{
+    margin-top: 30px;
+}
+.proj_block_left article{
+    width: 300px;
+    vertical-align: middle;
+    display: inline-block;
+}
+.details_link{
+    position: absolute;
+    margin-top: 25px;
+    color: #7cc576;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+.fa-arrow-right{
+    margin-top: 25px;
+    color: #7cc576;
 }
 
 
