@@ -149,7 +149,7 @@ h6{
 .relax_block{
     -webkit-background-size: cover;
     background-size: cover;
-    background: url("../img/relax_bg.png") center no-repeat;
+    background: url("../img/relax_bg.png") center no-repeat fixed;
     height: 600px;
     padding: 95px 0 0 530px ;
 }
@@ -184,7 +184,7 @@ h6{
     margin-top: 70px;
     -webkit-background-size: cover;
     background-size: cover;
-    background: url("../img/ipad.png") no-repeat ;
+    background: url("../img/ipad.png") no-repeat;
     height: 600px;
 }
 .proj_block_left{
@@ -211,16 +211,22 @@ h6{
     display: inline-block;
 }
 .details_link{
-    position: absolute;
     margin-top: 25px;
     color: #7cc576;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
+    transition:all .5s ease ;
 }
 .fa-arrow-right{
     margin-top: 25px;
     color: #7cc576;
+    transition:all .5s ease ;
 }
+.details_link:hover,
+.details_link:hover .fa-arrow-right{
+    color: #222;
+}
+
 
 
 
