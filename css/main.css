@@ -8,10 +8,11 @@ body{
 }
 p{
     font-family: "Roboto Slab", serif;
+    color: #777777;
 }
 
 span{
-    color: #cccccc;
+    color: #777777;
     font-family: "Roboto Slab", serif;
 }
 h1{
@@ -24,13 +25,25 @@ h2{
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     font-size: 2.5em ;
+    font-weight: bold;
+    color: #222222;
 }
+h3{
+    text-transform: uppercase;
+    color: #222222;
+}
+h2+p {
+    font-size: 1.2em;
+}
+
 h6{
     font-family: 'Montserrat', sans-serif;
     color: #222222;
     font-size: 1.5em;
     display: inline-block;
 }
+
+
 .wrapper{
     overflow: hidden;
 }
@@ -72,6 +85,8 @@ h6{
 .top_nav a:hover{
     color: #222;
 }
+
+
 .menu_button{
     border: none;
     background-color: transparent;
@@ -79,6 +94,8 @@ h6{
     float: right;
     font-size: 23px !important;
 }
+
+
 .top_slider{
     background-size: cover;
     background: url("../img/top_slide_bg.png") center no-repeat;
@@ -94,6 +111,8 @@ h6{
     color: #cccccc;
     font-family: "Roboto Slab", serif;
 }
+
+
 .green_btn{
     display: inline-block;
     line-height: 4em;
@@ -115,14 +134,11 @@ h6{
     color: #000000;
     margin-top: 20px;
 }
+
+
 .services{
     text-align: center;
-}
-.services h2{
-    margin-top: 95px;
-    text-align: center;
-    color: #222;
-    font-weight: bold;
+    padding-top: 95px;
 }
 .services span{
     font-family: "Roboto Slab", serif;
@@ -146,6 +162,8 @@ h6{
     display: block;
     margin: auto;
 }
+
+
 .relax_block{
     -webkit-background-size: cover;
     background-size: cover;
@@ -161,7 +179,10 @@ h6{
     font-weight: bold;
 }
 .relax_block p{
+    color: #cccccc;
     margin-top: 50px;
+}
+.relax_block span{
     color: #cccccc;
 }
 .fa-check-circle-o{
@@ -170,6 +191,8 @@ h6{
     color: #cccccc;
     font-weight: lighter;
 }
+
+
 .projects h2{
     margin-top: 100px;
     text-align: center;
@@ -178,7 +201,6 @@ h6{
 .projects> p{
     text-align: center;
     margin-bottom: 80px;
-    font-size: 1.2em;
 }
 .proj_block_right{
     margin-top: 70px;
@@ -216,18 +238,52 @@ h6{
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     transition:all .5s ease ;
+    margin-bottom: 10px;
 }
 .fa-arrow-right{
     margin-top: 25px;
     color: #7cc576;
     transition:all .5s ease ;
+    margin-bottom: 10px;
 }
 .details_link:hover,
 .details_link:hover .fa-arrow-right{
     color: #222;
+    margin-bottom: 20px;
 }
 
 
+.culture{
+
+    background: #f9f9f9;
+    min-height: 565px;
+    width: 100vw;
+    text-align: center;
+    padding-top: 100px;
+}
+.culture img{
+    margin-top: 85px;
+}
+.culture h3{
+    margin: 25px 0 20px 0;
+}
+
+
+
+
+.Circle_2 {
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(0, 0, 0);
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: 228px;
+    top: 2261px;
+    width: 71px;
+    height: 71px;
+    z-index: 234;
+}
 
 
 
